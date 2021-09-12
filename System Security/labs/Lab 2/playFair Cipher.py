@@ -127,12 +127,12 @@ def encryption(matrix, diagraph):
 
 # pprint.pprint(generateDiagraph(message))
 diagraph = generateDiagraph(message)
-pprint.pprint(diagraph)
+# pprint.pprint(diagraph)
 # print("\n")
 # pprint.pprint(matrixGeneration(message, keySet)) 
 matrix = matrixGeneration(message, keySet)
-pprint.pprint(matrix)
-print(encryption(matrix, diagraph))
+# pprint.pprint(matrix)
+print("Cipher Text: ", encryption(matrix, diagraph))
 
 
 
